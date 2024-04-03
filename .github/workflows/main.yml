@@ -45,6 +45,6 @@ jobs:
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25.1.1
         with:
-          vercel-token: ${{ secrets.VERCEL_SECRET }}
+          vercel-token: ${{ secrets.ANOTHER_VERCEL_SECRET }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: interviews-tracker-web
